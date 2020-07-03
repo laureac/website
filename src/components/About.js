@@ -1,4 +1,5 @@
 import React from 'react';
+import picture from '../images/nB.jpg';
 
 function About(props) {
     return (
@@ -16,7 +17,7 @@ function About(props) {
                         I'm looking for new opportunities, I am ready to give the best to evolve as a front-end dev and be surrounded by talented people.
                     </p>
                     </div>
-                    <img src='/images/nB.jpg' alt='profile picture'/>
+                    <img src={picture} alt='profile picture'/>
                 </div>
                 <div className='item'>
                     <div>
