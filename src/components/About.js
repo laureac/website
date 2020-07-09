@@ -1,5 +1,6 @@
 import React from 'react';
 import picture from '../images/nB.jpg';
+import CV from '../images/LAURE CLARET CV.pdf';
 
 function About(props) {
     return (
@@ -40,6 +41,7 @@ function About(props) {
                         <h3>How to reach me?</h3>
                         <p>laure.a.claret@gmail.com</p>
                         <p>0466 896 995</p>
+                        <p>Get my CV <b><a href={CV} target="_blank" rel="noopener noreferrer">here</a></b>.</p>
                     </div>
                 </div>
             </div>
