@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import picture from '../images/nB.jpg';
 import CV from '../images/LAURE CLARET CV.pdf';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About(props) {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      });
+
     return (
         <div className='section'>
-            <div className='section-title'>
+            <div className='section-title' data-aos="fade-up"    >
                 <h2>Something about me</h2>
             </div>
             <div className='section-items'>
-                <div className='item'>
+                <div className='item' data-aos="fade-up"     data-aos-delay="200">
                     <div>
                     <h3>Who I am.</h3>
                     <p className='content'>
@@ -20,7 +28,7 @@ function About(props) {
                     </div>
                     <img src={picture} alt='profile picture'/>
                 </div>
-                <div className='item'>
+                <div className='item' data-aos="fade-up"     data-aos-delay="200">
                     <div>
                         <h3>My skills.</h3>
                         <p>React and react librairies</p>
@@ -36,7 +44,7 @@ function About(props) {
                         </p>
                     </div>
                 </div>
-                <div className='item'>
+                <div className='item' data-aos="fade-up"     data-aos-delay="200">
                     <div>
                         <h3>How to reach me?</h3>
                         <p>laure.a.claret@gmail.com</p>
