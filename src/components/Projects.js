@@ -21,7 +21,7 @@ function Projects(props) {
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/video-app/' target="_blank" rel="noopener noreferrer"><h3>Youtube like app.</h3></a>
-                    <div> Axios, @material-UI</div>
+                    <div> Axios, @material-UI, RESTful API</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/home' target="_blank" rel="noopener noreferrer"><h3>Transition.</h3></a>
@@ -29,7 +29,7 @@ function Projects(props) {
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/chart/' target="_blank" rel="noopener noreferrer"><h3>COVID-19 tracker.</h3></a>
-                    <div>Chart.js</div>
+                    <div>Chart.js, RESTful API</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/acoordeon/' target="_blank" rel="noopener noreferrer"><h3>Q and A page.</h3></a>
@@ -45,7 +45,7 @@ function Projects(props) {
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/eventfinder/' target="_blank" rel="noopener noreferrer"><h3>Event finder app.</h3></a>
-                    <div></div>
+                    <div>RESTful API</div>
                 </div>
             </div>
         </div>
