@@ -32,7 +32,7 @@ function About(props) {
                     <div>
                         <h3>My skills.</h3>
                         <p>React and react librairies</p>
-                        <p>Strong with: <br></br> HTML, CSS, Sass, Javascript</p>
+                        <p>Strong with: <br></br> HTML, CSS, Sass, Javascript, Git, Bootstrap</p>
                         <p>Design software:
                         <br></br>
                         XD, 
