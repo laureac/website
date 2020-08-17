@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import picture from '../images/nB.jpg';
-import CV from '../images/LAURE CLARET CV.pdf';
+import CV from '../images/L CLARET CV.pdf';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
