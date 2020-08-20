@@ -74,6 +74,9 @@ h1::selection{
         .content{
           max-width: 60rem;
           line-height: 3.3rem;
+          @media (max-width: 600px){
+            max-width: 25rem;
+          }
         }
       }
     }
@@ -90,6 +93,9 @@ h1::selection{
 }
 img{
   height: 40rem;
+  @media (max-width: 600px){
+    width: 100%;
+  }
 }
 
 
