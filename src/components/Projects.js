@@ -16,6 +16,10 @@ function Projects(props) {
             </div>
             <div className='section-items'>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
+                    <a href='https://laureac.github.io/React-Job/' target="_blank" rel="noopener noreferrer"><h3>Job finder app.</h3></a>
+                    <div>RESTful API, Bootstrap, React Hooks</div>
+                </div>
+                <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h3>Landing page.</h3></a>
                     <div>GSAP</div>
                 </div>
@@ -42,10 +46,6 @@ function Projects(props) {
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/meditation-app/' target="_blank" rel="noopener noreferrer"><h3>Meditation app.</h3></a>
                     <div>Howler.js</div>
-                </div>
-                <div className='item' data-aos="fade-up"   data-aos-delay="200">
-                    <a href='https://laureac.github.io/eventfinder/' target="_blank" rel="noopener noreferrer"><h3>Event finder app.</h3></a>
-                    <div>RESTful API</div>
                 </div>
             </div>
         </div>
