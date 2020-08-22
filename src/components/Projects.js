@@ -16,16 +16,16 @@ function Projects(props) {
             </div>
             <div className='section-items'>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
+                    <a href='https://laureac.github.io/job-react/' target="_blank" rel="noopener noreferrer"><h3>Job finder app.</h3></a>
+                    <div>RESTful API, Bootstrap, React Hooks</div>
+                </div>
+                <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h3>Landing page.</h3></a>
                     <div>GSAP</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/video-app/' target="_blank" rel="noopener noreferrer"><h3>Youtube like app.</h3></a>
                     <div> Axios, @material-UI, RESTful API</div>
-                </div>
-                <div className='item' data-aos="fade-up"   data-aos-delay="200">
-                    <a href='https://laureac.github.io/React-Job/' target="_blank" rel="noopener noreferrer"><h3>Job finder app.</h3></a>
-                    <div>RESTful API, Bootstrap, React Hooks</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/home' target="_blank" rel="noopener noreferrer"><h3>Transition.</h3></a>
