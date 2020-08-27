@@ -20,6 +20,10 @@ function Projects(props) {
                     <div>RESTful API, Bootstrap, React Hooks</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
+                    <a href='https://github.com/laureac/eventfinder' target="_blank" rel="noopener noreferrer"><h3>Menu animation.</h3></a>
+                    <div></div>
+                </div>
+                <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h3>Landing page.</h3></a>
                     <div>GSAP</div>
                 </div>
@@ -34,10 +38,6 @@ function Projects(props) {
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/chart/' target="_blank" rel="noopener noreferrer"><h3>COVID-19 tracker.</h3></a>
                     <div>Chart.js, RESTful API</div>
-                </div>
-                <div className='item' data-aos="fade-up"   data-aos-delay="200">
-                    <a href='https://laureac.github.io/acoordeon/' target="_blank" rel="noopener noreferrer"><h3>Q and A page.</h3></a>
-                    <div></div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/3d-animation/' target="_blank" rel="noopener noreferrer"><h3>3D guitar.</h3></a>
