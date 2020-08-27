@@ -20,8 +20,8 @@ function Projects(props) {
                     <div>RESTful API, Bootstrap, React Hooks</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
-                    <a href='https://github.com/laureac/eventfinder' target="_blank" rel="noopener noreferrer"><h3>Menu animation.</h3></a>
-                    <div></div>
+                    <a href='https://laureac.github.io/eventfinder/' target="_blank" rel="noopener noreferrer"><h3>Menu animation.</h3></a>
+                    <div>GSAP</div>
                 </div>
                 <div className='item' data-aos="fade-up"   data-aos-delay="200">
                     <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h3>Landing page.</h3></a>
