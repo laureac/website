@@ -1,103 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+$font: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@800;900&display=swap');
 
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+$white: #fff;
+$black: #000;
+$maroon: #83333e;
+$soft-white: #f2f4f5;
+
+html, body{
+  font-family: $font !important;
+  font-size: 16px;
+  color: $white !important;
+  background: #0d0d0d !important;
 }
-body {
-  font: 1.37rem 'Poppins', sans-serif;
+
+h1::selection, p::selection{
+  background: $maroon;
+  color: $soft-white;
+}
+
+/*.container{
+  width: 1500px;
+  min-width: 1500px;
+  margin: 0 auto;
+  @media (max-width: 1440px) {
+      width: 1280px;
+      min-width: 1280px;
+  }
+  @media (max-width: 1280px) {
+      width: 976px;
+      min-width: 976px;
+  }
+  @media (max-width: 976px) {
+      width: 768px;
+      min-width: 768px;
+  }
+}*/
+ 
+header{
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  .logo{
+    font-weight: 900;
+  }
+}
+.main{
   height: 100vh;
-  margin: 0;
-}
-p::selection{
-  background-color: rgb(255, 145, 0);
-}
-h3::selection{
-  background-color: rgb(255, 145, 0);
-}
-h2::selection{
-  background-color: rgb(255, 145, 0);
-}
-h1::selection{
-  background-color: rgb(255, 145, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20vh;
+  p{
+    letter-spacing: 17px;
+    color: #3d4144;
+  }
+  h1{
+    font-weight: 900;
+    letter-spacing: 25px;
+  }
+
 }
 
-.App {
-  padding: 5rem;
-  .header{
-    position: fixed;
-    transform: translateY(-5rem);
-    background-color: white;
-    width: 100%;
-  }
-  .main{
-    height: 100vh;
-    display: flex;
-    align-items: flex-end;
-    h1{
-      font-size: 12rem;
-      @media (max-width: 600px){
-        font-size: 5rem;
-      }
-
-    }
-  }
-  .section{
-    margin-top: 10.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    .section-title{
-      flex-grow: 1;
-      max-width: 35rem;
-      h2{
-        margin: 0;
-      }
-
-    }
-    .section-items{
-      flex-grow: 3;
-      .item{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        border-bottom: solid .3px rgb(175, 175, 175);
-        padding: 3.5rem;
-        color: rgb(22, 22, 22);
-        a{
-          text-decoration: underline;
-          color: black;
-          h3{
-            font-weight: bold;
-            color: black;
-          }
-        }
-        .content{
-          max-width: 60rem;
-          line-height: 3.3rem;
-          @media (max-width: 600px){
-            max-width: 25rem;
-          }
-        }
-      }
-    }
-  }
-}
 .footer{
-  .text-section{
+  background-color: $black;
+  margin-top: 20vh;
+  .wrapper{
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 3.2rem;
-    margin: 2.6rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 10px 0;
+    span{
+      margin-left: 40px;
+    }
   }
 }
 img{
   height: 40rem;
+  width: auto;
   @media (max-width: 600px){
     width: 100%;
     height: auto;
   }
 }
 
+.locations {
+  position: absolute;
+  margin-top: 90vh;
+  margin-left: -50%;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  span {
+    &:first-child {
+      margin-left: 64px;
+    }
+    font-weight: 400;
+    margin: 0 32px;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+a{
+  color: $white !important;
+  text-decoration: none !important;
+}
+button{
+  all: unset;
+  border:$white 1px solid;
+  padding: 8px 15px;
+  font-size: .8rem !important;
+  letter-spacing: 0.2rem;
+  margin: 20px 0 !important;
+}
+
+.active{
+  width: 100px;
+  height: 100px;
+  background-color: $maroon;
+}
+
+.menu-city-background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  animation-name: backgroundEffect;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+
+.grid{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
 

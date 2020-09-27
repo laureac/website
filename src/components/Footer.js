@@ -3,13 +3,13 @@ import React from 'react';
 
 function Footer() {
     return (
-        <>
         <div className='footer'>
-            <div className='text-section'>
-                <p>Thanks for visiting and let's keep in touch!</p>
+            <div className='wrapper'>
+                <span>0466 896 995</span>
+                <span>laure.a.claret@gmail.com</span>
+                <span>East Brisbane</span>
             </div>
-        </div>
-        </>        
+        </div>     
         );
 }
 export default Footer;

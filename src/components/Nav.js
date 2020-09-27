@@ -2,8 +2,10 @@ import React from 'react';
 
 function Nav() {
     return (
-    <header className="header">
-        <p>LAURE CLARET</p>
+    <header>
+        <div className='container'>
+            <h1 className='logo'>C</h1>
+        </div>
     </header>
     );
 }

@@ -5,17 +5,15 @@ import Main from './components/Main';
 import Projects from './components/Projects';
 import About from './components/About';
 import Footer from './components/Footer';
+import Grid from './components/Grid';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav />
         <Main />
-        <Projects />
-        <About />
+        <Grid />
         <Footer />
-      </header>
     </div>
   );
 }

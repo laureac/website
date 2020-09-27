@@ -13,11 +13,9 @@ function About(props) {
 
     return (
         <div className='section'>
-            <div className='section-title' data-aos="fade-up"    >
-                <h2>Something about me</h2>
-            </div>
             <div className='section-items'>
                 <div className='item' data-aos="fade-up"     data-aos-delay="200">
+                    <img src={picture} alt='profile picture'/>
                     <div>
                     <h3>Who I am.</h3>
                     <p className='content'>
@@ -26,7 +24,7 @@ function About(props) {
                         I'm looking for new opportunities, I am ready to give the best to evolve as a front-end dev and be surrounded by talented people.
                     </p>
                     </div>
-                    <img src={picture} alt='profile picture'/>
+                    
                 </div>
                 <div className='item' data-aos="fade-up"     data-aos-delay="200">
                     <div>
