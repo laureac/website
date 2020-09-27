@@ -25,7 +25,7 @@ function Grid() {
                         <button>see more</button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div}>
-                        <a href='https://laureac.github.io/eventfinder/' target="_blank" rel="noopener noreferrer"><h4>Menu animation.</h4></a>
+                        <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h4>Landing page.</h4></a>
                         <div>GSAP</div>
                         <button>see more</button>
                     </Col>
