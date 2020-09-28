@@ -12,36 +12,40 @@ function Grid() {
     return (
             <Container> 
                 <Row>
+                    <Col xs={12} md={4} style={styles.div}>
+                       <h4>Photo Slider.</h4>
+                        <div>Personal project. Technology used : GSAP</div>
+                        <button> <a href='https://laureac.github.io/meditation-app/' target="_blank" rel="noopener noreferrer">see website</a></button>
+                    </Col>
                     <Col xs={12} md={4} style={styles.div} >
-                        <a href='https://laureac.github.io/learn-japanese/' target="_blank" rel="noopener noreferrer">
                             <h4>Job finder.</h4>
-                        </a>
-                        <div>RESTful API, Bootstrap, React Hooks</div>
-                        <button>see more</button>
+                        <div>Personal project. Technology used : RESTful API, Bootstrap, React Hooks</div>
+                        <button><a href='https://laureac.github.io/learn-japanese/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div}> 
-                        <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h4>Landing page.</h4></a>
-                        <div>GSAP</div>
-                        <button>see more</button>
-                    </Col>
-                    <Col xs={12} md={4} style={styles.div}>
-                        <a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer"><h4>Landing page.</h4></a>
-                        <div>GSAP</div>
-                        <button>see more</button>
+                        <h4>Landing page.</h4>
+                        <div>Personal project. Technology used : GSAP</div>
+                        <button><a href='https://laureac.github.io/website-gsap/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div}> 
-                        <a href='https://laureac.github.io/video-app/' target="_blank" rel="noopener noreferrer"><h4>Youtube like app.</h4></a>
-                        <div> Axios, @material-UI, RESTful API</div>
-                        <button>see more</button>
+                        <h4>Youtube like app.</h4>
+                        <div>Personal project. Technology used : Axios, @material-UI, RESTful API</div>
+                        <button><a href='https://laureac.github.io/video-app/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
-                    <Col xs={12} md={4} style={styles.div}>
-                        <a href='https://laureac.github.io/home' target="_blank" rel="noopener noreferrer"><h4>Transition.</h4></a>
-                        <div>GSAP, React Router</div>
-                        <button>see more</button>
+                    <Col xs={12} md={4} style={styles.div}> 
+                        <h4>Fresh Chai Co.</h4>
+                        <div>Client website</div>
+                        <button><a href='https://freshchaico.myshopify.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
-                    <Col xs={12} md={4} style={styles.div}><a href='https://laureac.github.io/home' target="_blank" rel="noopener noreferrer"><h4>Transition.</h4></a>
-                        <div>GSAP, React Router</div>
-                        <button>see more</button>
+                    <Col xs={12} md={4} style={styles.div}> 
+                        <h4>Marble Bar Bistro.</h4>
+                        <div>Client website</div>
+                        <button><a href='http://marble.tcc-staging.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
+                    </Col>
+                    <Col xs={12} md={4} style={styles.div}> 
+                        <h4>Ground Force Landscape.</h4>
+                        <div>Client website</div>
+                        <button><a href='http://groundforce.tcc-staging.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                 </Row>
             </Container>
