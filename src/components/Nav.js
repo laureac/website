@@ -1,13 +1,31 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 function Nav() {
     return (
-    <header>
-        <div className='container'>
-            <h1 className='logo'>C</h1>
+        <div className='header'>
+        <NavLink 
+            to='/website' 
+            exact 
+            activeStyle={{
+              fontWeight: "bold",
+              color: "red"
+            }}
+        >
+            Home
+        </NavLink>
+        <NavLink
+            to='/about'
+            exact
+            activeStyle={{
+              fontWeight: "bold",
+              color: "red"
+            }}>
+            About
+        </NavLink>
         </div>
-    </header>
-    );
-}
+      );
+    };
+
 
 export default Nav;

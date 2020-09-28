@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Grid from './Grid'
 
 import {
     handleCityReturn,
@@ -31,6 +32,7 @@ function Main(props) {
       ];
     
     return (
+      <>
         <div data-aos="fade-down" data-aos-duration="900" className='main'> 
             <div
             ref={el => (cityBackground = el)}
@@ -53,6 +55,8 @@ function Main(props) {
                 ))}
               </div>
         </div>
+        <Grid />
+      </>
     );
 }
 
