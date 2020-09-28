@@ -20,8 +20,8 @@ function About(props) {
                     <h3>Who I am.</h3>
                     <p>
                         I am a web developer based in Brisbane but also available for remote work.
-                        Self-teached, but worked many years in Digital Marketing and User Interface.
-                        I am very verstaile, training focused on user experience.
+                        Self-teached, I previously worked many years in Digital Marketing.
+                        I am very verstaile, training focused on User Experience.
                     </p>
                     </div>
                 </div>

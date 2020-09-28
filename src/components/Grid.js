@@ -34,17 +34,17 @@ function Grid() {
                     </Col>
                     <Col xs={12} md={4} style={styles.div}> 
                         <h4>Fresh Chai Co.</h4>
-                        <div>Client website</div>
+                        <div>Client website. Developed with Shopify.</div>
                         <button><a href='https://freshchaico.myshopify.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div}> 
                         <h4>Marble Bar Bistro.</h4>
-                        <div>Client website</div>
+                        <div>Client website. Developed with Wordpress.</div>
                         <button><a href='http://marble.tcc-staging.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div}> 
                         <h4>Ground Force Landscape.</h4>
-                        <div>Client website</div>
+                        <div>Client website. Developed with Wordpress.</div>
                         <button><a href='http://groundforce.tcc-staging.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                 </Row>
