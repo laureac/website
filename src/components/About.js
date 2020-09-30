@@ -23,6 +23,7 @@ function About(props) {
                         Self-teached, I previously worked many years in Digital Marketing.
                         I am very verstaile, training focused on User Experience.
                     </p>
+                    <button><a href={CV} download>Get my CV.</a></button>
                     </div>
                 </div>
             </div>
