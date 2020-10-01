@@ -13,9 +13,9 @@ function Grid() {
             <Container> 
                 <Row>
                     <Col xs={12} md={4} style={styles.div}>
-                       <h4>Photo Slider.</h4>
-                        <div>Personal project. Technology used : GSAP</div>
-                        <button> <a href='https://laureac.github.io/meditation-app/' target="_blank" rel="noopener noreferrer">see website</a></button>
+                       <h4>Fellow Farmer.</h4>
+                        <div>Participate in the front end building.</div>
+                        <button> <a href='https://fellowfarmer.com/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div} >
                             <h4>Job finder.</h4>
