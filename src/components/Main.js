@@ -44,7 +44,7 @@ function Main(props) {
                 </div>
 
                 <div className='locations'>
-                Where are you from:
+                Where are you from (hover over):
                 {cities.map(el => (
                   <span
                     key={el.name}
