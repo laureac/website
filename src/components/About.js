@@ -3,6 +3,8 @@ import picture from '../images/nB.jpg';
 import CV from '../images/L CLARET CV.pdf';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ReactGA from 'react-ga';
+
 
 function About(props) {
 
@@ -10,6 +12,11 @@ function About(props) {
         AOS.init();
         AOS.refresh();
       });
+
+    ReactGA.event({
+    category: "CV",
+    action: "User pressed CV button",
+    });
 
     return (
         <div className='section'>

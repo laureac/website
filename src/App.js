@@ -11,6 +11,14 @@ import { CSSTransition } from "react-transition-group";
 import { gsap } from "gsap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Switch from 'react-bootstrap/esm/Switch';
+import ReactGA from 'react-ga';
+import auth from './auth.ts'; 
+
+const trackingId = "UA-179471173-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.set({
+  userId: auth.currentUserId(),
+})
 
 
 function App() {
