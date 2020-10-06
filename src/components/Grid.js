@@ -23,7 +23,7 @@ function Grid() {
                         <button><a href='https://laureac.github.io/learn-japanese/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
                     <Col xs={12} md={4} style={styles.div}> 
-                        <h4>Deco website.</h4>
+                        <h4>Yoga website.</h4>
                         <div>Personal project. Technology used : GSAP, CSSTransition</div>
                         <button><a href='https://laureac.github.io/home/' target="_blank" rel="noopener noreferrer">see website</a></button>
                     </Col>
